@@ -1,8 +1,13 @@
 export const Layout = ({ children }) => {
   return (
     <>
-      <head></head>
-      <main>{children}</main>
+      <header></header>
+      <main>
+        <article>
+          {children}
+        </article>
+      </main>
+      <footer></footer>
     </>
   )
 }
